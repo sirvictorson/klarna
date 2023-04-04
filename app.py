@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return render_template('index.html', name='Klarna')
+    return render_template('index.html', name='BNPL')
 
 # Define an API endpoint
 @app.route('/prediction')
